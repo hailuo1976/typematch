@@ -1,0 +1,138 @@
+export const WORDS_EN_EASY: string[] = [
+  'cat', 'dog', 'run', 'big', 'hot', 'red', 'cup', 'map', 'sun', 'box',
+  'hat', 'pen', 'bus', 'top', 'net', 'fix', 'joy', 'key', 'low', 'mix',
+  'old', 'put', 'row', 'set', 'try', 'use', 'van', 'win', 'yes', 'zip',
+  'age', 'air', 'arm', 'art', 'ask', 'bad', 'bag', 'ban', 'bar', 'bat',
+  'bay', 'bed', 'bet', 'bit', 'bow', 'bud', 'bug', 'buy', 'cab', 'can',
+  'cap', 'car', 'cow', 'cry', 'cut', 'day', 'did', 'dig', 'dim', 'dip',
+  'dry', 'due', 'dug', 'ear', 'eat', 'egg', 'end', 'era', 'eve', 'eye',
+  'fan', 'far', 'fat', 'fed', 'few', 'fig', 'fin', 'fit', 'fly', 'fog',
+  'for', 'fox', 'fun', 'fur', 'gap', 'gas', 'get', 'gin', 'god', 'got',
+  'gum', 'gun', 'gut', 'guy', 'gym', 'had', 'ham', 'has', 'hay', 'hen',
+];
+
+export const WORDS_EN_MEDIUM: string[] = [
+  'about', 'above', 'after', 'again', 'begin', 'below', 'black', 'board',
+  'brain', 'bring', 'brown', 'build', 'carry', 'catch', 'cause', 'chain',
+  'chair', 'chalk', 'chance', 'change', 'charge', 'cheap', 'check', 'chief',
+  'child', 'china', 'claim', 'class', 'clean', 'clear', 'climb', 'clock',
+  'close', 'cloud', 'coach', 'coast', 'count', 'court', 'cover', 'crash',
+  'crazy', 'cream', 'crime', 'cross', 'crowd', 'cycle', 'dance', 'death',
+  'delay', 'depth', 'dirty', 'doubt', 'draft', 'drama', 'dream', 'dress',
+  'drink', 'drive', 'earth', 'eight', 'empty', 'enemy', 'enjoy', 'enter',
+  'equal', 'error', 'event', 'every', 'exact', 'exist', 'extra', 'faith',
+  'false', 'fault', 'field', 'fight', 'final', 'first', 'fixed', 'flame',
+  'flash', 'float', 'flood', 'floor', 'fluid', 'focus', 'force', 'frame',
+  'fresh', 'front', 'fruit', 'fully', 'funny', 'ghost', 'giant', 'given',
+  'glass', 'globe', 'going', 'grace', 'grade', 'grain', 'grand', 'grant',
+  'grass', 'grave', 'great', 'green', 'group', 'grown', 'guard', 'guess',
+  'guide', 'happy', 'heart', 'heavy', 'hence', 'horse', 'hotel', 'house',
+  'human', 'humor', 'ideal', 'image', 'imply', 'index', 'inner', 'input',
+  'issue', 'judge', 'known', 'label', 'large', 'later', 'laugh', 'layer',
+  'learn', 'leave', 'level', 'light', 'limit', 'liver', 'local', 'logic',
+  'loose', 'lover', 'lower', 'lucky', 'lunch', 'magic', 'major', 'match',
+  'mayor', 'media', 'metal', 'might', 'minor', 'model', 'money', 'month',
+  'moral', 'motor', 'mount', 'mouse', 'mouth', 'movie', 'music', 'naked',
+];
+
+export const WORDS_EN_HARD: string[] = [
+  'absolute', 'abstract', 'academic', 'accident', 'accurate', 'achieved',
+  'acquired', 'actually', 'addition', 'adequate', 'adjusted', 'advanced',
+  'affected', 'aircraft', 'alliance', 'although', 'analysis', 'announce',
+  'anything', 'anywhere', 'apparent', 'approach', 'approval', 'argument',
+  'assemble', 'assuming', 'athletic', 'backbone', 'balanced', 'bankrupt',
+  'baseball', 'bathroom', 'becoming', 'behavior', 'birthday', 'blankets',
+  'boundary', 'breeding', 'brothers', 'building', 'business', 'calendar',
+  'campaign', 'capacity', 'captured', 'category', 'ceremony', 'chairman',
+  'champion', 'changing', 'chapters', 'charging', 'chemical', 'children',
+  'choosing', 'circular', 'civilian', 'climbing', 'clinical', 'clothing',
+  'coaching', 'collapse', 'colonial', 'combined', 'comeback', 'commerce',
+  'commonly', 'communal', 'compared', 'compiler', 'complete', 'composed',
+  'compound', 'computer', 'conclude', 'concrete', 'conflict', 'congress',
+  'conquest', 'consider', 'constant', 'consumer', 'continue', 'contract',
+  'contrast', 'controls', 'convince', 'corridor', 'coverage', 'creating',
+  'criminal', 'critical', 'crossing', 'cultural', 'currency', 'customer',
+  'database', 'deadline', 'december', 'decision', 'declared', 'decrease',
+  'defended', 'definite', 'delivery', 'demanded', 'democrat', 'departed',
+  'depicted', 'deployed', 'deposits', 'describe', 'designer', 'detailed',
+  'detector', 'develop', 'dialogue', 'diamonds', 'dictator', 'directed',
+];
+
+export const WORDS_EN_MASTER: string[] = [
+  'accomplishment', 'acknowledgement', 'administration', 'approximately',
+  'authentication', 'autobiography', 'biodegradable', 'cardiovascular',
+  'characteristics', 'chronological', 'classification', 'collaboration',
+  'communication', 'comprehensive', 'concentration', 'configuration',
+  'congratulations', 'consciousness', 'consequently', 'constitution',
+  'construction', 'contemporary', 'contribution', 'controversial',
+  'conventional', 'correspondence', 'counterargument', 'demonstration',
+  'determination', 'developmental', 'disappointment', 'discrimination',
+  'distinguished', 'documentation', 'electromagnetic', 'encouragement',
+  'entertainment', 'entrepreneurial', 'environmental', 'establishment',
+  'extraordinary', 'fundamentally', 'globalization', 'governmental',
+  'gravitational', 'hallucination', 'heterogeneous', 'homogeneous',
+  'hydroelectric', 'implementation', 'improvisation', 'inappropriate',
+  'independently', 'infrastructure', 'initialization', 'institutional',
+  'instrumentation', 'intellectual', 'intercontinental', 'interpretation',
+  'investigation', 'justification', 'knowledgeable', 'manufacturing',
+  'mathematician', 'Mediterranean', 'microprocessor', 'miscellaneous',
+  'misconception', 'misinterpret', 'neuropsychology', 'notwithstanding',
+  'organizational', 'pharmaceutical', 'philosophical', 'predominantly',
+  'professionalism', 'psychological', 'reconnaissance', 'rehabilitation',
+  'representative', 'responsibility', 'semiconductor', 'simultaneously',
+  'sophistication', 'specification', 'straightforward', 'superintendent',
+  'telecommunication', 'thermodynamics', 'transformation', 'uncomfortable',
+  'unconventional', 'understanding', 'unfortunately', 'unprecedented',
+];
+
+export const WORDS_ZH_EASY: string[] = [
+  '大', '小', '人', '口', '手', '日', '月', '水', '火', '山',
+  '天', '地', '风', '云', '雨', '花', '草', '树', '鸟', '鱼',
+  '马', '牛', '羊', '猫', '狗', '上', '下', '左', '右', '中',
+  '东', '西', '南', '北', '春', '夏', '秋', '冬', '红', '绿',
+  '蓝', '白', '黑', '高', '低', '长', '短', '快', '慢', '多',
+  '少', '新', '旧', '好', '美', '爱', '学', '书', '笔', '纸',
+];
+
+export const WORDS_ZH_MEDIUM: string[] = [
+  '电脑', '手机', '学校', '老师', '同学', '朋友', '家庭', '父母',
+  '孩子', '工作', '公司', '城市', '国家', '世界', '历史', '文化',
+  '科学', '技术', '经济', '政治', '社会', '环境', '健康', '运动',
+  '音乐', '电影', '旅行', '美食', '阅读', '学习', '思考', '创造',
+  '梦想', '希望', '幸福', '快乐', '自由', '和平', '勇敢', '坚持',
+  '努力', '成功', '失败', '经验', '智慧', '时间', '空间', '未来',
+  '阳光', '星空', '大海', '森林', '花园', '彩虹', '清晨', '黄昏',
+  '微笑', '拥抱', '温暖', '力量', '信念', '勇气', '善良', '真诚',
+];
+
+export const WORDS_ZH_HARD: string[] = [
+  '人工智能', '机器学习', '深度学习', '自然语言', '数据分析',
+  '云计算', '物联网', '区块链', '虚拟现实', '增强现实',
+  '量子计算', '边缘计算', '网络安全', '信息加密', '算法优化',
+  '自动驾驶', '智能制造', '数字化转型', '可持续发展', '碳中和',
+  '生物技术', '基因编辑', '新能源', '太空探索', '深海开发',
+  '文化创意', '知识产权', '国际贸易', '金融市场', '风险管控',
+  '社会治理', '公共服务', '教育改革', '医疗健康', '生态保护',
+  '城市规划', '交通管理', '应急响应', '社区建设', '乡村振兴',
+  '科技创新', '产业升级', '人才培养', '国际合作', '全球治理',
+];
+
+export const WORDS_ZH_MASTER: string[] = [
+  '人工智能技术', '机器学习算法', '深度神经网络', '自然语言处理',
+  '计算机视觉', '数据挖掘分析', '云计算平台', '物联网生态系统',
+  '区块链技术', '虚拟现实应用', '量子计算研究', '网络安全防护',
+  '信息加密技术', '算法优化设计', '自动驾驶系统', '智能制造产业',
+  '数字化转型战略', '可持续发展目标', '碳中和路径规划', '生物技术创新',
+  '基因编辑技术', '新能源开发利用', '太空探索工程', '深海资源开发',
+  '文化创意产业', '知识产权保护', '国际贸易合作', '金融风险管控',
+  '社会治理体系', '公共服务平台', '教育改革创新', '医疗健康保障',
+  '生态环境保护', '城市规划建设', '交通管理系统', '应急响应机制',
+  '社区治理模式', '乡村振兴战略', '科技创新驱动', '产业转型升级',
+];
+
+export const ALL_WORDS_BY_DIFFICULTY = {
+  easy: { en: WORDS_EN_EASY, zh: WORDS_ZH_EASY },
+  medium: { en: WORDS_EN_MEDIUM, zh: WORDS_ZH_MEDIUM },
+  hard: { en: WORDS_EN_HARD, zh: WORDS_ZH_HARD },
+  master: { en: WORDS_EN_MASTER, zh: WORDS_ZH_MASTER },
+} as const;

@@ -1,0 +1,24 @@
+import type { Difficulty, DifficultyConfig, GameMode, GameModeConfig } from './types';
+export declare const DIFFICULTY_CONFIGS: Record<Difficulty, DifficultyConfig>;
+export declare const GAME_MODE_CONFIGS: Record<GameMode, GameModeConfig>;
+export declare const UDP_BROADCAST_PORT = 25565;
+export declare const TCP_SERVER_PORT = 25566;
+export declare const HTTP_SERVER_PORT = 3000;
+export declare const BROADCAST_INTERVAL = 2000;
+export declare const BROADCAST_TIMEOUT = 10000;
+export declare const MAX_PLAYERS = 8;
+export declare const RECONNECT_TIMEOUT = 30000;
+export declare const GAME_COUNTDOWN_SECONDS = 3;
+export declare const SCORE_BASE = 10;
+export declare const SPEED_STANDARD_TIME_PER_CHAR = 0.3;
+export declare const MIN_SPEED_COEFFICIENT = 0.5;
+export declare const MAX_SPEED_COEFFICIENT = 2;
+export declare const MIN_ACCURACY_COEFFICIENT = 0.8;
+export declare const MAX_COMBO_BONUS = 0.5;
+export declare const COMBO_DIVISOR = 100;
+export declare const PENALTY_WRONG = -3;
+export declare const PENALTY_TIMEOUT = -5;
+export declare const PENALTY_CONSECUTIVE_WRONG = -10;
+export declare const CONSECUTIVE_WRONG_THRESHOLD = 3;
+export declare const MIN_INPUT_TIME_PER_CHAR = 0.1;
+//# sourceMappingURL=constants.d.ts.map

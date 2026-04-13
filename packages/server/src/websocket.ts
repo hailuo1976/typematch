@@ -202,15 +202,18 @@ export class WsHandler {
     const leftPayload: PlayerLeftPayload = { playerId };
     this.broadcast('PLAYER_LEFT', leftPayload);
 
-    if (wasHost && this.room.players.length > 0) {
+    if (this.room.players.length === 0) {
+      this.stopGame();
+      this.room = null;
+      console.log('[WS] 所有玩家已离开，房间已清理');
+      return;
+    }
+
+    if (wasHost) {
       const newHostId = transferHost(this.room);
       if (newHostId) {
         console.log(`[WS] 房主迁移至: ${newHostId}`);
       }
-    }
-
-    if (this.room.players.length === 0) {
-      this.stopGame();
     }
 
     this.broadcastRoomState();

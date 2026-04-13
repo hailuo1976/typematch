@@ -32,6 +32,13 @@ class TypeMatchServer {
     }
     setupRoutes() {
         this.app.get('/api/info', (_req, res) => {
+            const wsRoom = this.wsHandler.getRoom();
+            if (wsRoom) {
+                this.room = wsRoom;
+            }
+            else {
+                this.room = null;
+            }
             res.json({
                 ip: this.localIp,
                 room: this.room,
@@ -39,9 +46,14 @@ class TypeMatchServer {
         });
         this.app.post('/api/room', (req, res) => {
             const { hostId, hostNickname, roomName, maxPlayers, difficulty, gameMode, password } = req.body;
-            if (this.room) {
+            const wsRoom = this.wsHandler.getRoom();
+            if (wsRoom) {
                 res.status(400).json({ error: '房间已存在，请先删除旧房间' });
                 return;
+            }
+            if (this.room) {
+                this.room = null;
+                this.stopBroadcasting();
             }
             this.room = (0, roomManager_1.createRoom)(hostId, hostNickname, roomName || `${hostNickname}的房间`, maxPlayers || 8, difficulty || 'medium', gameMode || 'classic', password);
             this.wsHandler.setRoom(this.room);

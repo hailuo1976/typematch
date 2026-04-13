@@ -75,8 +75,10 @@ class GameEngine {
         if (!state)
             return;
         const word = this.activeWords.find(w => w.id === wordId);
-        if (!word)
+        if (!word) {
+            this.onInputResult(playerId, wordId, false, 0);
             return;
+        }
         const inputTimeSeconds = (inputTimestamp - word.appearedAt) / 1000;
         const minTime = word.length * shared_1.MIN_INPUT_TIME_PER_CHAR;
         if (inputTimeSeconds < minTime) {

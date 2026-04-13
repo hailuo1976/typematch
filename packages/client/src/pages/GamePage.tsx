@@ -90,6 +90,18 @@ export default function GamePage() {
     }
   }, [selectedWordId, activeWords]);
 
+  /**
+   * 退出游戏
+   */
+  const handleExitGame = useCallback(() => {
+    ws.disconnect();
+    store.setRoom(null);
+    store.setIsHost(false);
+    store.clearChatMessages();
+    store.resetGame();
+    store.setPage('lobby');
+  }, [ws, store]);
+
   if (store.gameCountdown > 0) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -133,6 +145,12 @@ export default function GamePage() {
               </div>
             )}
           </div>
+          <button
+            onClick={handleExitGame}
+            className="btn-danger text-sm"
+          >
+            退出游戏
+          </button>
         </div>
 
         <div className="flex-1 flex gap-4">

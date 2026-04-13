@@ -71,8 +71,8 @@ export function useWebSocket() {
         correct: boolean;
         score: number;
       };
-      if (payload.playerId === store.playerId && payload.correct) {
-        store.removeActiveWord(payload.wordId);
+      store.removeActiveWord(payload.wordId);
+      if (payload.playerId === store.playerId) {
         store.setCurrentInput('');
         store.setTargetWordId(null);
       }
